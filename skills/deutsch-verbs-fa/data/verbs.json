@@ -1,0 +1,1902 @@
+{
+ "meta": {
+  "levels": [
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "name": "deutsch-verbs-fa",
+  "note": "Hand-checked A1-B1 German verbs with Persian glosses. Fields: inf=infinitive, fa=Persian gloss, level, cls=weak|strong|mixed|irregular, aux=haben|sein, sep=separable prefix or null, insep=true when the prefix is inseparable (no ge- in Partizip II), change=Prasens stem change for du/er (a>ae, e>i, e>ie), praet=Prateritum stem (strong/mixed), part2=Partizip II (strong/mixed/irregular), forms=full tables for irregular verbs.",
+  "verbs": 183,
+  "version": "1.0.0"
+ },
+ "verbs": [
+  {
+   "aux": "sein",
+   "cls": "irregular",
+   "fa": "بودن",
+   "forms": {
+    "imperativ": [
+     "sei",
+     "seid"
+    ],
+    "konj2": [
+     "wäre",
+     "wärst",
+     "wäre",
+     "wären",
+     "wärt",
+     "wären"
+    ],
+    "praesens": [
+     "bin",
+     "bist",
+     "ist",
+     "sind",
+     "seid",
+     "sind"
+    ],
+    "praeteritum": [
+     "war",
+     "warst",
+     "war",
+     "waren",
+     "wart",
+     "waren"
+    ]
+   },
+   "inf": "sein",
+   "level": "A1",
+   "part2": "gewesen"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "داشتن",
+   "forms": {
+    "imperativ": [
+     "habe",
+     "habt"
+    ],
+    "konj2": [
+     "hätte",
+     "hättest",
+     "hätte",
+     "hätten",
+     "hättet",
+     "hätten"
+    ],
+    "praesens": [
+     "habe",
+     "hast",
+     "hat",
+     "haben",
+     "habt",
+     "haben"
+    ],
+    "praeteritum": [
+     "hatte",
+     "hattest",
+     "hatte",
+     "hatten",
+     "hattet",
+     "hatten"
+    ]
+   },
+   "inf": "haben",
+   "level": "A1",
+   "part2": "gehabt"
+  },
+  {
+   "aux": "sein",
+   "cls": "irregular",
+   "fa": "شدن",
+   "forms": {
+    "imperativ": [
+     "werde",
+     "werdet"
+    ],
+    "konj2": [
+     "würde",
+     "würdest",
+     "würde",
+     "würden",
+     "würdet",
+     "würden"
+    ],
+    "praesens": [
+     "werde",
+     "wirst",
+     "wird",
+     "werden",
+     "werdet",
+     "werden"
+    ],
+    "praeteritum": [
+     "wurde",
+     "wurdest",
+     "wurde",
+     "wurden",
+     "wurdet",
+     "wurden"
+    ]
+   },
+   "inf": "werden",
+   "level": "A1",
+   "part2": "geworden"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "توانستن",
+   "forms": {
+    "konj2": [
+     "könnte",
+     "könntest",
+     "könnte",
+     "könnten",
+     "könntet",
+     "könnten"
+    ],
+    "praesens": [
+     "kann",
+     "kannst",
+     "kann",
+     "können",
+     "könnt",
+     "können"
+    ],
+    "praeteritum": [
+     "konnte",
+     "konntest",
+     "konnte",
+     "konnten",
+     "konntet",
+     "konnten"
+    ]
+   },
+   "inf": "können",
+   "level": "A1",
+   "part2": "gekonnt"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "مجبور بودن",
+   "forms": {
+    "konj2": [
+     "müsste",
+     "müsstest",
+     "müsste",
+     "müssten",
+     "müsstet",
+     "müssten"
+    ],
+    "praesens": [
+     "muss",
+     "musst",
+     "muss",
+     "müssen",
+     "müsst",
+     "müssen"
+    ],
+    "praeteritum": [
+     "musste",
+     "musstest",
+     "musste",
+     "mussten",
+     "musstet",
+     "mussten"
+    ]
+   },
+   "inf": "müssen",
+   "level": "A1",
+   "part2": "gemusst"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "خواستن",
+   "forms": {
+    "konj2": [
+     "wollte",
+     "wolltest",
+     "wollte",
+     "wollten",
+     "wolltet",
+     "wollten"
+    ],
+    "praesens": [
+     "will",
+     "willst",
+     "will",
+     "wollen",
+     "wollt",
+     "wollen"
+    ],
+    "praeteritum": [
+     "wollte",
+     "wolltest",
+     "wollte",
+     "wollten",
+     "wolltet",
+     "wollten"
+    ]
+   },
+   "inf": "wollen",
+   "level": "A1",
+   "part2": "gewollt"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "باید (وظیفه)",
+   "forms": {
+    "konj2": [
+     "sollte",
+     "solltest",
+     "sollte",
+     "sollten",
+     "solltet",
+     "sollten"
+    ],
+    "praesens": [
+     "soll",
+     "sollst",
+     "soll",
+     "sollen",
+     "sollt",
+     "sollen"
+    ],
+    "praeteritum": [
+     "sollte",
+     "solltest",
+     "sollte",
+     "sollten",
+     "solltet",
+     "sollten"
+    ]
+   },
+   "inf": "sollen",
+   "level": "A1",
+   "part2": "gesollt"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "اجازه داشتن",
+   "forms": {
+    "konj2": [
+     "dürfte",
+     "dürftest",
+     "dürfte",
+     "dürften",
+     "dürftet",
+     "dürften"
+    ],
+    "praesens": [
+     "darf",
+     "darfst",
+     "darf",
+     "dürfen",
+     "dürft",
+     "dürfen"
+    ],
+    "praeteritum": [
+     "durfte",
+     "durftest",
+     "durfte",
+     "durften",
+     "durftet",
+     "durften"
+    ]
+   },
+   "inf": "dürfen",
+   "level": "A1",
+   "part2": "gedurft"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "دوست داشتن",
+   "forms": {
+    "konj2": [
+     "möchte",
+     "möchtest",
+     "möchte",
+     "möchten",
+     "möchtet",
+     "möchten"
+    ],
+    "praesens": [
+     "mag",
+     "magst",
+     "mag",
+     "mögen",
+     "mögt",
+     "mögen"
+    ],
+    "praeteritum": [
+     "mochte",
+     "mochtest",
+     "mochte",
+     "mochten",
+     "mochtet",
+     "mochten"
+    ]
+   },
+   "inf": "mögen",
+   "level": "A1",
+   "part2": "gemocht"
+  },
+  {
+   "aux": "haben",
+   "cls": "irregular",
+   "fa": "میل داشتن",
+   "forms": {
+    "konj2": [
+     "möchte",
+     "möchtest",
+     "möchte",
+     "möchten",
+     "möchtet",
+     "möchten"
+    ],
+    "praesens": [
+     "möchte",
+     "möchtest",
+     "möchte",
+     "möchten",
+     "möchtet",
+     "möchten"
+    ],
+    "praeteritum": [
+     "wollte",
+     "wolltest",
+     "wollte",
+     "wollten",
+     "wolltet",
+     "wollten"
+    ]
+   },
+   "inf": "möchten",
+   "level": "A1",
+   "part2": "gemocht"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "یاد گرفتن",
+   "inf": "lernen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "انجام دادن",
+   "inf": "machen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "بازی کردن",
+   "inf": "spielen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "زندگی کردن (سکونت)",
+   "inf": "wohnen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "زندگی کردن",
+   "inf": "leben",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "شنیدن",
+   "inf": "hören",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "خریدن",
+   "inf": "kaufen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "پرسیدن",
+   "inf": "fragen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "جواب دادن",
+   "inf": "antworten",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "منتظر ماندن",
+   "inf": "warten",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "جستجو کردن",
+   "inf": "suchen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "نیاز داشتن",
+   "inf": "brauchen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "باور کردن",
+   "inf": "glauben",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "کار کردن",
+   "inf": "arbeiten",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "گفتن",
+   "inf": "sagen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "دوست داشتن",
+   "inf": "lieben",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "خندیدن",
+   "inf": "lachen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "آشپزی کردن",
+   "inf": "kochen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "رقصیدن",
+   "inf": "tanzen",
+   "level": "A1"
+  },
+  {
+   "aux": "sein",
+   "cls": "weak",
+   "fa": "سفر کردن",
+   "inf": "reisen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تحصیل کردن (دانشگاه)",
+   "inf": "studieren",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تلفن زدن",
+   "inf": "telefonieren",
+   "level": "A1"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "رفتن",
+   "inf": "gehen",
+   "level": "A1",
+   "part2": "gegangen",
+   "praet": "ging"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "آمدن",
+   "inf": "kommen",
+   "level": "A1",
+   "part2": "gekommen",
+   "praet": "kam"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "دیدن",
+   "inf": "sehen",
+   "level": "A1",
+   "part2": "gesehen",
+   "praet": "sah"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "دادن",
+   "inf": "geben",
+   "level": "A1",
+   "part2": "gegeben",
+   "praet": "gab"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "گرفتن",
+   "inf": "nehmen",
+   "level": "A1",
+   "part2": "genommen",
+   "praet": "nahm",
+   "stem2": "nimm"
+  },
+  {
+   "aux": "sein",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "رانندگی کردن / رفتن",
+   "inf": "fahren",
+   "level": "A1",
+   "part2": "gefahren",
+   "praet": "fuhr"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "خواندن",
+   "inf": "lesen",
+   "level": "A1",
+   "part2": "gelesen",
+   "praet": "las"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "نوشتن",
+   "inf": "schreiben",
+   "level": "A1",
+   "part2": "geschrieben",
+   "praet": "schrieb"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "صحبت کردن",
+   "inf": "sprechen",
+   "level": "A1",
+   "part2": "gesprochen",
+   "praet": "sprach"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "خوردن",
+   "inf": "essen",
+   "level": "A1",
+   "part2": "gegessen",
+   "praet": "aß"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "نوشیدن",
+   "inf": "trinken",
+   "level": "A1",
+   "part2": "getrunken",
+   "praet": "trank"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "خوابیدن",
+   "inf": "schlafen",
+   "level": "A1",
+   "part2": "geschlafen",
+   "praet": "schlief"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "ایستادن",
+   "inf": "stehen",
+   "level": "A1",
+   "part2": "gestanden",
+   "praet": "stand"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "پیدا کردن",
+   "inf": "finden",
+   "level": "A1",
+   "part2": "gefunden",
+   "praet": "fand"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "کمک کردن",
+   "inf": "helfen",
+   "level": "A1",
+   "part2": "geholfen",
+   "praet": "half"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "ماندن",
+   "inf": "bleiben",
+   "level": "A1",
+   "part2": "geblieben",
+   "praet": "blieb"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "نامیده شدن",
+   "inf": "heißen",
+   "level": "A1",
+   "part2": "geheißen",
+   "praet": "hieß"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "دانستن",
+   "forms": {
+    "praesens": [
+     "weiß",
+     "weißt",
+     "weiß",
+     "wissen",
+     "wisst",
+     "wissen"
+    ],
+    "imperativ": [
+     "wisse",
+     "wisst"
+    ]
+   },
+   "inf": "wissen",
+   "level": "A1",
+   "part2": "gewusst",
+   "praet": "wusste"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "فکر کردن",
+   "inf": "denken",
+   "level": "A1",
+   "part2": "gedacht",
+   "praet": "dachte"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "آوردن",
+   "inf": "bringen",
+   "level": "A1",
+   "part2": "gebracht",
+   "praet": "brachte"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "شناختن",
+   "inf": "kennen",
+   "level": "A1",
+   "part2": "gekannt",
+   "praet": "kannte"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "رسیدن",
+   "inf": "ankommen",
+   "level": "A1",
+   "part2": "gekommen",
+   "praet": "kam",
+   "sep": "an"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "بلند شدن",
+   "inf": "aufstehen",
+   "level": "A1",
+   "part2": "gestanden",
+   "praet": "stand",
+   "sep": "auf"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "خرید کردن",
+   "inf": "einkaufen",
+   "level": "A1",
+   "sep": "ein"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "تلفن زدن",
+   "inf": "anrufen",
+   "level": "A1",
+   "part2": "gerufen",
+   "praet": "rief",
+   "sep": "an"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "تلویزیون دیدن",
+   "inf": "fernsehen",
+   "level": "A1",
+   "part2": "gesehen",
+   "praet": "sah",
+   "sep": "fern"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تمام کردن / دست کشیدن",
+   "inf": "aufhören",
+   "level": "A1",
+   "sep": "auf"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "گرفتن / دریافت کردن",
+   "inf": "bekommen",
+   "insep": true,
+   "level": "A1",
+   "part2": "bekommen",
+   "praet": "bekam"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "فهمیدن",
+   "inf": "verstehen",
+   "insep": true,
+   "level": "A1",
+   "part2": "verstanden",
+   "praet": "verstand"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "فروختن",
+   "inf": "verkaufen",
+   "insep": true,
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "پرداخت کردن",
+   "inf": "bezahlen",
+   "insep": true,
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "ملاقات کردن / دیدن",
+   "inf": "besuchen",
+   "insep": true,
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "خوش آمدن",
+   "inf": "gefallen",
+   "insep": true,
+   "level": "A1",
+   "part2": "gefallen",
+   "praet": "gefiel"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تعلق داشتن",
+   "inf": "gehören",
+   "insep": true,
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "شروع کردن",
+   "inf": "beginnen",
+   "insep": true,
+   "level": "A1",
+   "part2": "begonnen",
+   "praet": "begann"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "فراموش کردن",
+   "inf": "vergessen",
+   "insep": true,
+   "level": "A1",
+   "part2": "vergessen",
+   "praet": "vergaß"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "ترک کردن",
+   "inf": "verlassen",
+   "insep": true,
+   "level": "A2",
+   "part2": "verlassen",
+   "praet": "verließ"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "نشستن",
+   "inf": "sitzen",
+   "level": "A1",
+   "part2": "gesessen",
+   "praet": "saß"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "دراز کشیدن / قرار داشتن",
+   "inf": "liegen",
+   "level": "A1",
+   "part2": "gelegen",
+   "praet": "lag"
+  },
+  {
+   "aux": "sein",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "دویدن / رفتن",
+   "inf": "laufen",
+   "level": "A1",
+   "part2": "gelaufen",
+   "praet": "lief"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "حمل کردن / پوشیدن",
+   "inf": "tragen",
+   "level": "A1",
+   "part2": "getragen",
+   "praet": "trug"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "صدا زدن",
+   "inf": "rufen",
+   "level": "A1",
+   "part2": "gerufen",
+   "praet": "rief"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "درخواست کردن",
+   "inf": "bitten",
+   "level": "A1",
+   "part2": "gebeten",
+   "praet": "bat"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "بردن / پیروز شدن",
+   "inf": "gewinnen",
+   "insep": true,
+   "level": "A2",
+   "part2": "gewonnen",
+   "praet": "gewann"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "منظور داشتن / فکر کردن",
+   "inf": "meinen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "امیدوار بودن",
+   "inf": "hoffen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "گریه کردن",
+   "inf": "weinen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "باران باریدن",
+   "inf": "regnen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "باز کردن",
+   "inf": "öffnen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "شمردن",
+   "inf": "zählen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "نشان دادن",
+   "inf": "zeigen",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تمرین کردن",
+   "inf": "üben",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "ازدواج کردن",
+   "inf": "heiraten",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "هزینه داشتن",
+   "inf": "kosten",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "طول کشیدن",
+   "inf": "dauern",
+   "level": "A1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "کم بودن / غایب بودن",
+   "inf": "fehlen",
+   "level": "A2"
+  },
+  {
+   "aux": "sein",
+   "cls": "weak",
+   "fa": "اتفاق افتادن",
+   "inf": "passieren",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "عکس گرفتن",
+   "inf": "fotografieren",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "امتحان کردن",
+   "inf": "probieren",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تکرار کردن",
+   "inf": "wiederholen",
+   "level": "A2",
+   "insep": true
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "اجاره کردن",
+   "inf": "mieten",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "خوشمزه بودن / مزه دادن",
+   "inf": "schmecken",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "درست بودن",
+   "inf": "stimmen",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "جور شدن / موفق شدن",
+   "inf": "klappen",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تمام شدن",
+   "inf": "enden",
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "شروع کردن",
+   "inf": "starten",
+   "level": "A2"
+  },
+  {
+   "aux": "sein",
+   "cls": "weak",
+   "fa": "فرود آمدن / رسیدن",
+   "inf": "landen",
+   "level": "A2"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "پریدن",
+   "inf": "springen",
+   "level": "A2",
+   "part2": "gesprungen",
+   "praet": "sprang"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "شنا کردن",
+   "inf": "schwimmen",
+   "level": "A2",
+   "part2": "geschwommen",
+   "praet": "schwamm"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "آواز خواندن",
+   "inf": "singen",
+   "level": "A2",
+   "part2": "gesungen",
+   "praet": "sang"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "غرق شدن",
+   "inf": "sinken",
+   "level": "A2",
+   "part2": "gesunken",
+   "praet": "sank"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "شستن",
+   "inf": "waschen",
+   "level": "A2",
+   "part2": "gewaschen",
+   "praet": "wusch"
+  },
+  {
+   "aux": "sein",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "رشد کردن",
+   "inf": "wachsen",
+   "level": "A2",
+   "part2": "gewachsen",
+   "praet": "wuchs"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "زدن",
+   "inf": "schlagen",
+   "level": "A2",
+   "part2": "geschlagen",
+   "praet": "schlug"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "گرفتن (توپ / ماهی)",
+   "inf": "fangen",
+   "level": "A2",
+   "part2": "gefangen",
+   "praet": "fing"
+  },
+  {
+   "aux": "sein",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "افتادن",
+   "inf": "fallen",
+   "level": "A2",
+   "part2": "gefallen",
+   "praet": "fiel"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "نگه داشتن",
+   "inf": "halten",
+   "level": "A2",
+   "part2": "gehalten",
+   "praet": "hielt"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "گذاشتن / اجازه دادن",
+   "inf": "lassen",
+   "level": "A2",
+   "part2": "gelassen",
+   "praet": "ließ"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "حدس زدن / توصیه کردن",
+   "inf": "raten",
+   "level": "A2",
+   "part2": "geraten",
+   "praet": "riet"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "دزدیدن",
+   "inf": "stehlen",
+   "level": "A2",
+   "part2": "gestohlen",
+   "praet": "stahl"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "توصیه کردن",
+   "inf": "empfehlen",
+   "insep": true,
+   "level": "A2",
+   "part2": "empfohlen",
+   "praet": "empfahl"
+  },
+  {
+   "aux": "sein",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "اتفاق افتادن",
+   "inf": "geschehen",
+   "level": "A2",
+   "part2": "geschehen",
+   "praet": "geschah"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "ملاقات کردن / برخورد کردن",
+   "inf": "treffen",
+   "level": "A2",
+   "part2": "getroffen",
+   "praet": "traf"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "شکستن",
+   "inf": "brechen",
+   "level": "A2",
+   "part2": "gebrochen",
+   "praet": "brach"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "نیش زدن / فرو کردن",
+   "inf": "stechen",
+   "level": "B1",
+   "part2": "gestochen",
+   "praet": "stach"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "پرتاب کردن",
+   "inf": "werfen",
+   "level": "A2",
+   "part2": "geworfen",
+   "praet": "warf"
+  },
+  {
+   "aux": "sein",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "مردن",
+   "inf": "sterben",
+   "level": "A2",
+   "part2": "gestorben",
+   "praet": "starb"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "معتبر بودن",
+   "inf": "gelten",
+   "level": "B1",
+   "part2": "gegolten",
+   "praet": "galt"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "پرواز کردن",
+   "inf": "fliegen",
+   "level": "A2",
+   "part2": "geflogen",
+   "praet": "flog"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "کشیدن / نقل مکان کردن",
+   "inf": "ziehen",
+   "level": "A2",
+   "part2": "gezogen",
+   "praet": "zog"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "پیشنهاد دادن",
+   "inf": "bieten",
+   "level": "B1",
+   "part2": "geboten",
+   "praet": "bot"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "جاری شدن",
+   "inf": "fließen",
+   "level": "B1",
+   "part2": "geflossen",
+   "praet": "floss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "ریختن / آب دادن",
+   "inf": "gießen",
+   "level": "B1",
+   "part2": "gegossen",
+   "praet": "goss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "لذت بردن",
+   "inf": "genießen",
+   "level": "B1",
+   "part2": "genossen",
+   "praet": "genoss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "شلیک کردن",
+   "inf": "schießen",
+   "level": "B1",
+   "part2": "geschossen",
+   "praet": "schoss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "گم کردن / باختن",
+   "inf": "verlieren",
+   "insep": true,
+   "level": "A2",
+   "part2": "verloren",
+   "praet": "verlor"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "یخ زدن / سرد بودن",
+   "inf": "frieren",
+   "level": "A2",
+   "part2": "gefroren",
+   "praet": "fror"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "بالا رفتن / سوار شدن",
+   "inf": "steigen",
+   "level": "A2",
+   "part2": "gestiegen",
+   "praet": "stieg"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "راندن / انجام دادن (ورزش)",
+   "inf": "treiben",
+   "level": "B1",
+   "part2": "getrieben",
+   "praet": "trieb"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "قرض دادن / قرض گرفتن",
+   "inf": "leihen",
+   "level": "B1",
+   "part2": "geliehen",
+   "praet": "lieh"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "بریدن",
+   "inf": "schneiden",
+   "level": "A2",
+   "part2": "geschnitten",
+   "praet": "schnitt"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "جدا شدن",
+   "inf": "scheiden",
+   "level": "B1",
+   "part2": "geschieden",
+   "praet": "schied"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "رنج بردن",
+   "inf": "leiden",
+   "level": "B1",
+   "part2": "gelitten",
+   "praet": "litt"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "اجتناب کردن",
+   "inf": "meiden",
+   "level": "B1",
+   "part2": "gemieden",
+   "praet": "mied"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "قدم زدن",
+   "inf": "schreiten",
+   "level": "B1",
+   "part2": "geschritten",
+   "praet": "schritt"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "دعوا کردن",
+   "inf": "streiten",
+   "level": "B1",
+   "part2": "gestritten",
+   "praet": "stritt"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "سوارکاری کردن",
+   "inf": "reiten",
+   "level": "B1",
+   "part2": "geritten",
+   "praet": "ritt"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "گرفتن / چنگ زدن",
+   "inf": "greifen",
+   "level": "B1",
+   "part2": "gegriffen",
+   "praet": "griff"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "گاز گرفتن",
+   "inf": "beißen",
+   "level": "B1",
+   "part2": "gebissen",
+   "praet": "biss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "پاره کردن / کشیدن",
+   "inf": "reißen",
+   "level": "B1",
+   "part2": "gerissen",
+   "praet": "riss"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "پرتاب کردن",
+   "inf": "schmeißen",
+   "level": "B1",
+   "part2": "geschmissen",
+   "praet": "schmiss"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "سر خوردن",
+   "inf": "gleiten",
+   "level": "B1",
+   "part2": "geglitten",
+   "praet": "glitt"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "هل دادن",
+   "inf": "schieben",
+   "level": "B1",
+   "part2": "geschoben",
+   "praet": "schob"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "دروغ گفتن",
+   "inf": "lügen",
+   "level": "B1",
+   "part2": "gelogen",
+   "praet": "log"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "بو کردن / بو دادن",
+   "inf": "riechen",
+   "level": "B1",
+   "part2": "gerochen",
+   "praet": "roch"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "بستن",
+   "inf": "schließen",
+   "level": "A2",
+   "part2": "geschlossen",
+   "praet": "schloss"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "موفق شدن",
+   "inf": "gelingen",
+   "insep": true,
+   "level": "B1",
+   "part2": "gelungen",
+   "praet": "gelang"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "نامیدن",
+   "inf": "nennen",
+   "level": "A2",
+   "part2": "genannt",
+   "praet": "nannte"
+  },
+  {
+   "aux": "sein",
+   "cls": "mixed",
+   "fa": "دویدن (سریع)",
+   "inf": "rennen",
+   "level": "A2",
+   "part2": "gerannt",
+   "praet": "rannte"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "سوختن",
+   "inf": "brennen",
+   "level": "B1",
+   "part2": "gebrannt",
+   "praet": "brannte"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "فرستادن",
+   "inf": "senden",
+   "level": "B1",
+   "part2": "gesandt",
+   "praet": "sandte",
+   "konj2stem": "sendete"
+  },
+  {
+   "aux": "haben",
+   "cls": "mixed",
+   "fa": "چرخاندن / برگرداندن",
+   "inf": "wenden",
+   "level": "B1",
+   "part2": "gewandt",
+   "praet": "wandte",
+   "konj2stem": "wendete"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "همراه آمدن",
+   "inf": "mitkommen",
+   "level": "A1",
+   "part2": "gekommen",
+   "praet": "kam",
+   "sep": "mit"
+  },
+  {
+   "aux": "sein",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "حرکت کردن (رفتن)",
+   "inf": "abfahren",
+   "level": "A2",
+   "part2": "gefahren",
+   "praet": "fuhr",
+   "sep": "ab"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تحویل گرفتن / برداشتن",
+   "inf": "abholen",
+   "level": "A2",
+   "sep": "ab"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "شروع کردن",
+   "inf": "anfangen",
+   "level": "A1",
+   "part2": "gefangen",
+   "praet": "fing",
+   "sep": "an"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "باز کردن",
+   "inf": "aufmachen",
+   "level": "A1",
+   "sep": "auf"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "بستن",
+   "inf": "zumachen",
+   "level": "A1",
+   "sep": "zu"
+  },
+  {
+   "aux": "haben",
+   "change": "a>ä",
+   "cls": "strong",
+   "fa": "دعوت کردن",
+   "inf": "einladen",
+   "level": "A2",
+   "part2": "geladen",
+   "praet": "lud",
+   "sep": "ein"
+  },
+  {
+   "aux": "haben",
+   "change": "e>ie",
+   "cls": "strong",
+   "fa": "به نظر رسیدن",
+   "inf": "aussehen",
+   "level": "A2",
+   "part2": "gesehen",
+   "praet": "sah",
+   "sep": "aus"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "سوار شدن",
+   "inf": "einsteigen",
+   "level": "A2",
+   "part2": "gestiegen",
+   "praet": "stieg",
+   "sep": "ein"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "پیاده شدن",
+   "inf": "aussteigen",
+   "level": "A2",
+   "part2": "gestiegen",
+   "praet": "stieg",
+   "sep": "aus"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "نقل مکان کردن / لباس عوض کردن",
+   "inf": "umziehen",
+   "level": "A2",
+   "part2": "gezogen",
+   "praet": "zog",
+   "sep": "um"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "برگشتن",
+   "inf": "zurückkommen",
+   "level": "A2",
+   "part2": "gekommen",
+   "praet": "kam",
+   "sep": "zurück"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "شرکت کردن",
+   "inf": "mitmachen",
+   "level": "A2",
+   "sep": "mit"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "معرفی کردن / تصور کردن",
+   "inf": "vorstellen",
+   "level": "A2",
+   "sep": "vor"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "رفتن / دور شدن",
+   "inf": "weggehen",
+   "level": "A2",
+   "part2": "gegangen",
+   "praet": "ging",
+   "sep": "weg"
+  },
+  {
+   "aux": "sein",
+   "cls": "strong",
+   "fa": "راه افتادن / شروع شدن",
+   "inf": "losgehen",
+   "level": "A2",
+   "part2": "gegangen",
+   "praet": "ging",
+   "sep": "los"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "تصمیم گرفتن",
+   "inf": "entscheiden",
+   "insep": true,
+   "level": "A2",
+   "part2": "entschieden",
+   "praet": "entschied"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "توضیح دادن",
+   "inf": "erklären",
+   "insep": true,
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تعریف کردن",
+   "inf": "erzählen",
+   "insep": true,
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "تلاش کردن",
+   "inf": "versuchen",
+   "insep": true,
+   "level": "A2"
+  },
+  {
+   "aux": "haben",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "قول دادن",
+   "inf": "versprechen",
+   "insep": true,
+   "level": "A2",
+   "part2": "versprochen",
+   "praet": "versprach"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "اجتناب کردن",
+   "inf": "vermeiden",
+   "insep": true,
+   "level": "B1",
+   "part2": "vermieden",
+   "praet": "vermied"
+  },
+  {
+   "aux": "haben",
+   "cls": "strong",
+   "fa": "بخشیدن",
+   "inf": "verzeihen",
+   "insep": true,
+   "level": "B1",
+   "part2": "verziehen",
+   "praet": "verzieh"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "کشف کردن",
+   "inf": "entdecken",
+   "insep": true,
+   "level": "B1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "اجازه دادن",
+   "inf": "erlauben",
+   "insep": true,
+   "level": "B1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "رسیدن به",
+   "inf": "erreichen",
+   "insep": true,
+   "level": "B1"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "انتظار داشتن",
+   "inf": "erwarten",
+   "insep": true,
+   "level": "B1"
+  },
+  {
+   "aux": "sein",
+   "change": "e>i",
+   "cls": "strong",
+   "fa": "شکستن",
+   "inf": "zerbrechen",
+   "insep": true,
+   "level": "B1",
+   "part2": "zerbrochen",
+   "praet": "zerbrach"
+  },
+  {
+   "aux": "haben",
+   "cls": "weak",
+   "fa": "نابود کردن",
+   "inf": "zerstören",
+   "insep": true,
+   "level": "B1"
+  }
+ ]
+}
