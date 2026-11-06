@@ -1,0 +1,67 @@
+---
+description: German verb conjugation for Persian speakers — never guess a verb form; conjugate with the deterministic tool, place separable prefixes correctly, pick haben/sein by the verb, and check learner sentences for verb-form errors. Apply whenever German text is written or corrected for Persian-speaking learners.
+globs: "**/*.{md,txt,json,yaml,yml}"
+alwaysApply: false
+---
+
+# German verb conjugation for Persian speakers — look it up, never guess it
+
+## The contract
+
+1. **Never guess a verb form.** When German text is on the table, run
+   the checker (zero-dependency, pure stdlib):
+
+   ```bash
+   python3 scripts/deutsch_verbs.py conjugate <verb> [--tense T] [--json]
+   ```
+
+   Full paradigm: Präsens, Präteritum, Perfekt, Futur I, Konjunktiv II,
+   Imperativ — with the separable prefix in its place
+   (`ich komme an`, `ich bin angekommen`, `Kommen Sie an`) and the
+   Persian gloss. Exit codes: `0` = conjugated · `1` = verb not in the
+   curated list · `2` = usage error.
+
+2. **Explain the pattern, honestly.** Class (weak / strong / mixed /
+   irregular), stem change (`a → ä`, `e → i`, `e → ie` — du/er only),
+   Perfekt auxiliary (haben/sein by the verb), separable vs.
+   inseparable prefix (Partizip II with `ge-` in the middle for
+   separable, no `ge-` at all for inseparable). Apply to one verb:
+
+   ```bash
+   python3 scripts/deutsch_verbs.py rules <verb>
+   ```
+
+   Full tables: `references/conjugation-tables.md`; tense use and the
+   common traps: `references/tense-guide.md`.
+
+3. **Check learner sentences conservatively.** Only what is decidable
+   gets flagged — wrong person (`Ich geht` → `Ich gehe`), wrong Perfekt
+   auxiliary (`Ich habe gegangen` → `Ich bin gegangen`), unseparated
+   separable verb (`Ich ankomme` → `Ich komme an`), wrong `werden`
+   form in Futur I:
+
+   ```bash
+   python3 scripts/deutsch_verbs.py check "Ich habe gegangen" [--json]
+   ```
+
+   Exit codes: `0` = no findings · `1` = findings. **No finding is not a
+   proof of correctness** — say that when reporting.
+
+4. **Drill and export.** `quiz [--n 5] [--level A1] [--seed N]
+   [--answers a,b,c]` for interactive drills; `anki [--out cards.tsv]`
+   exports the verb list as Anki-importable TSV (2,196 cards).
+
+## Limits
+
+- Curated list is A1–B1 core vocabulary (183 verbs, v1.0.0) — not a
+  dictionary replacement for verbs outside it.
+- The checker handles simple sentences only (pronoun + finite form,
+  pronoun + auxiliary + Partizip II, pronoun + werden + infinitive)
+  rather than guessing on complex ones.
+- Modal verbs have no usable imperative — the tool reports that instead
+  of inventing one.
+- A deterministic reference, not a teacher: no judgment on style or
+  naturalness.
+
+The full skill with references and the MCP server lives in
+`skills/deutsch-verbs-fa/` and `mcp-server/`.
